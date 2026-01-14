@@ -1,0 +1,22 @@
+.host-page {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 48px 24px;
+}
+
+.host-actions {
+  margin-top: 32px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 24px;
+}
+
+.host-card {
+  padding: 24px;
+  border-radius: 16px;
+  border: 1px solid white;
+}
+
+.host-card h3 {
+  margin-bottom: 8px;
+}

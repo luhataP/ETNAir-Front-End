@@ -1,0 +1,54 @@
+.property-card {
+  cursor: pointer;
+  background: white;
+  border-radius: 16px;
+  overflow: hidden; /* 🔥 empêche l’image de dépasser */
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.12);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.property-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.18);
+}
+
+/* CONTENEUR IMAGE */
+.property-image {
+  height: 180px;
+  background: #eaeaea;
+  overflow: hidden; /* 🔥 obligatoire */
+}
+
+/* IMAGE */
+.property-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* 🔥 clé du bon rendu */
+  display: block;
+  transition: transform 0.3s ease;
+}
+
+.property-card:hover .property-image img {
+  transform: scale(1.05);
+}
+
+/* INFOS */
+.property-info {
+  padding: 12px 14px;
+}
+
+.property-info h4 {
+  font-size: 1rem;
+  font-weight: 600;
+  margin: 0;
+}
+
+.property-info .location {
+  font-size: 0.9rem;
+  color: #717171;
+}
+
+.property-info .price {
+  margin-top: 4px;
+  font-weight: 500;
+}

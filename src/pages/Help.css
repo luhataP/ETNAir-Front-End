@@ -1,0 +1,14 @@
+.help-page {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 48px 24px;
+}
+
+.help-section {
+    margin-top: 32px;
+}
+
+.help-section h2 {
+    font-size: 1.2rem;
+    margin-bottom: 8px;
+}
